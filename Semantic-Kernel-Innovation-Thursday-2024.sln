@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35201.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1-ChatGPT", "1-ChatGPT\1-ChatGPT.csproj", "{6CD74ADC-0B11-45C2-A113-AEB3BC4A8348}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2-ImageToText", "2-ImageToText\2-ImageToText.csproj", "{69446D43-DF9C-4C3C-924E-A1EFA7893ED0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3-CustomDatePlugin", "3-CustomDatePlugin\3-CustomDatePlugin.csproj", "{EBFE5C3F-C9EC-4BAA-9B3E-BBDD854DDE21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4-CustomStorePlugin", "4-CustomStorePlugin\4-CustomStorePlugin.csproj", "{C16F9532-A83F-4808-9953-D16A3B75446E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5-CustomStorePluginQueries", "5-CustomStorePluginQueries\5-CustomStorePluginQueries.csproj", "{F9BD6240-1448-461C-9535-C056F40EBF65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{70072EE9-031A-4E73-BEDE-97CD5771C20B}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CD74ADC-0B11-45C2-A113-AEB3BC4A8348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CD74ADC-0B11-45C2-A113-AEB3BC4A8348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CD74ADC-0B11-45C2-A113-AEB3BC4A8348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD74ADC-0B11-45C2-A113-AEB3BC4A8348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69446D43-DF9C-4C3C-924E-A1EFA7893ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69446D43-DF9C-4C3C-924E-A1EFA7893ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69446D43-DF9C-4C3C-924E-A1EFA7893ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69446D43-DF9C-4C3C-924E-A1EFA7893ED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBFE5C3F-C9EC-4BAA-9B3E-BBDD854DDE21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBFE5C3F-C9EC-4BAA-9B3E-BBDD854DDE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBFE5C3F-C9EC-4BAA-9B3E-BBDD854DDE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBFE5C3F-C9EC-4BAA-9B3E-BBDD854DDE21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C16F9532-A83F-4808-9953-D16A3B75446E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C16F9532-A83F-4808-9953-D16A3B75446E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C16F9532-A83F-4808-9953-D16A3B75446E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C16F9532-A83F-4808-9953-D16A3B75446E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9BD6240-1448-461C-9535-C056F40EBF65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9BD6240-1448-461C-9535-C056F40EBF65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9BD6240-1448-461C-9535-C056F40EBF65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9BD6240-1448-461C-9535-C056F40EBF65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9776A38E-0820-4A75-A60A-0A188C9B34D1}
+	EndGlobalSection
+EndGlobal
