@@ -17,28 +17,28 @@ Before deploying to a production environment, please review, test, and improve u
 These fields are required in your User Secrets:
 ```json
 {
-  "AzureOpenAI": {
-    "ModelId": "gpt-4o-mini",
-    "Endpoint": "", //Get your Endpoint from Azure AI Studio
-    "ApiKey": "" //Get your Key from Azure AI Studio
-  },
-  "OpenAI": {
-    "ModelId": "gpt-4o-mini",
-    "Endpoint": "https://api.openai.com/",
-    "ApiKey": "" //Get your Key from OpenAI.
-  },
-  "Ollama": {
-    "ModelId": "llama3.1",
-    "Endpoint": "http://localhost:11434",
-    "ApiKey": "null" //Ollama has no auth, so null is fine.
-  },
-  "HuggingFace": {
-    "Endpoint": "https://api-inference.huggingface.co/models/Salesforce/blip-image-captioning-base",
-    "ApiKey": "" //Get your key from https://huggingface.co/
-  },
-  "ConnectionStrings": {
-    "DefaultConnection": "" //Your DB connection string.
-  }
+   "AzureOpenAI":{
+      "ModelId":"gpt-4o-mini",
+      "Endpoint":"//Get your Endpoint from Azure AI Studio",
+      "ApiKey":"//Get your Key from Azure AI Studio"
+   },
+   "OpenAI":{
+      "ModelId":"gpt-4o-mini",
+      "Endpoint":"https://api.openai.com/",
+      "ApiKey":"//Get your Key from OpenAI."
+   },
+   "Ollama":{
+      "ModelId":"llama3.1",
+      "Endpoint":"http://localhost:11434",
+      "ApiKey":"null"
+   },
+   "HuggingFace":{
+      "Endpoint":"https://api-inference.huggingface.co/models/Salesforce/blip-image-captioning-base",
+      "ApiKey":"//Get your key from https://huggingface.co/"
+   },
+   "ConnectionStrings":{
+      "DefaultConnection":"//Your DB connection string."
+   }
 }
 ```
 
